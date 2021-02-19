@@ -25,7 +25,7 @@ SECRET_KEY = '#1mqy*fvdn88m@wr4&p(__)1x065h@3c)vlzg7ex8lpp#49fo4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['herokudjangoapsunnycode.herokuapp.com']
+ALLOWED_HOSTS = ['sunnycodedeploy.herokuapp.com']
 
 
 # Application definition
