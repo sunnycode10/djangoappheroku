@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +26,7 @@ SECRET_KEY = '#1mqy*fvdn88m@wr4&p(__)1x065h@3c)vlzg7ex8lpp#49fo4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sunnycodedeploy.herokuapp.com']
+ALLOWED_HOSTS = ['sunnycodedeploy.herokuapp.com',]
 
 
 # Application definition
